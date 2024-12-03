@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu portifólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <header>
+        <nav class="menu">
+        <ul class="menu-ops">
+            <li><a href="#about-me" id="about-me-button"> Sobre mim</a></li>
+            <li><a href="#experiencias" id="experiencia-button">Experiências profissionais</a></li>
+            <li><a href="#formacao" id="formacao-button">Formações</a></li>
+            <li><a href="#form">Entre em contato</a></li>
+        </ul>
+    </nav>
+    </header>
+    
+        <div class="about-me" id="about-me">
+            <h1 id="welcome">Bem-vindo!</h1>
+            <p>Meu nome é Vinícius, tenho 23 anos e sou apaixonado por tecnologia. Mas não só vivo de tela, gosto também de realizar atividade ao ar livre como caminhar,pescar,andar de bicicleta.<br>Mas não vou mentir, tecnologia faz parte de 80% do meu dia. Já que trabalho com TI, mais especificamente no suporte de usuários, fico direto em contato com o computador.Gosto muito do assunto e estou sempre buscando novos conhecimentos na área.<br></p>
+        </div>
+        <div class="formacoes" id="formacoes">
+            <h1>Formações:</h1>
+            <ul>
+                <li>Informática Básico - Ápice Treinamentos(Concluído)</li>
+                <li>Técnico em Eletrotécnica - SENAI(Concluído)</li>
+                <li>Técnico em Análise e Desenvolvimento de Sistemas - Instituto Federal(Em andamento)</li>
+                <li>Tecnólogo em Análise e Desenvolvimento de Sistema - Uninter(Em andamento)</li>
+            </ul>
+        </div>
+        <div class="experiencias" id="experiencias">
+            <h1>Experiências Profissionais</h1>
+            <ul>
+                <li>Alcace Transportes - Assistente Administrativo (2020-2021)</li>
+                <li>Alcoa - Operador de Refinaria(2021-2023)</li>
+                <li>Tecnoimports - Analista de Suporte(2023 - )</li>
+            </ul>
+        </div>
+        <div class="formulario" id="form">
+            <form action="/submit" method="post">
+                <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem"  ></textarea>
+                </div>
+                <button type="submit" id="enviar">Enviar</button>
+            </form>
+        </div>
+        <div class="projetos">
+            <h1>Link de Projetos:</h1>
+            <a href="https://vinicius2104.github.io/pedra-papel-tesoura/" target="_blank">Projeto com foco no java script, aprendendo mais sobre o local storage e a biblioteca Math</a>
+            <br>
+            <a href="https://vinicius2104.github.io/tailwind-css/" target="_blank">Projeto voltado para o Css, utilizando o tailwind. Foco na estilização e design responsivo</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
